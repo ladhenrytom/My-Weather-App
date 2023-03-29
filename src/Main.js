@@ -3,7 +3,7 @@ import windIcon from "./Images/wind-icon.svg";
 
 function Main(props) {
   const humStyle = {
-    width: `${props.myWeather.days[0].hum}%`,
+    width: `${props.myWeather.days[0].humidity}%`,
   };
 
   return (
